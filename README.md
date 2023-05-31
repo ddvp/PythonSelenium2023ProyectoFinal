@@ -1,2 +1,2 @@
-# PythonSelenium2023ProyectoFinal
-Final project
+# automation_framework_template
+Automation framework template for python projects
