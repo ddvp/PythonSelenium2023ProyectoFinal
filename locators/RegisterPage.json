@@ -1,0 +1,45 @@
+{
+  "url": "https://laboratorio.qaminds.com/index.php?route=account/account",
+  "locators": {
+    "account_section": {
+      "by":"XPATH",
+      "value": "//a[@title=\"My Account\"]"
+    },
+    "register": {
+      "by": "XPATH",
+      "value": "//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a"
+    },
+    "firstnm_input": {
+      "by": "ID",
+      "value": "input-firstname"
+    },
+    "lastnm_input": {
+      "by": "ID",
+      "value": "input-lastname"
+    },
+    "email_input": {
+      "by": "ID",
+      "value": "input-email"
+    },
+    "telephone_input": {
+      "by": "ID",
+      "value": "input-telephone"
+    },
+    "pswd_input": {
+      "by": "ID",
+      "value": "input-password"
+    },
+    "pswdConf_input": {
+      "by": "ID",
+      "value": "input-confirm"
+    },
+    "agree_box": {
+      "by":"XPATH",
+      "value": "//input[@name=\"agree\"]"
+    },
+    "continue_btn": {
+      "by": "XPATH",
+      "value": "//input[@type=\"submit\"]"
+    }
+  }
+}
