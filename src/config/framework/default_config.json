@@ -4,7 +4,7 @@
   "explicit_wait": 5,
   "drivers_path": "driver/chromedriver.exe",
   "maximize": true,
-  "incognito": false,
+  "incognito": true,
   "headless": {
     "enabled": false,
     "resolution": {
