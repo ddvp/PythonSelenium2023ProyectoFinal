@@ -1,19 +1,11 @@
 {
-  "url": "https://laboratorio.qaminds.com/index.php?route=account/account",
+  "url": "https://laboratorio.qaminds.com/index.php?route=account/register",
   "locators": {
-    "account_section": {
-      "by":"XPATH",
-      "value": "//a[@title=\"My Account\"]"
-    },
-    "register": {
-      "by": "XPATH",
-      "value": "//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a"
-    },
-    "firstnm_input": {
+    "first_name_input": {
       "by": "ID",
       "value": "input-firstname"
     },
-    "lastnm_input": {
+    "last_name_input": {
       "by": "ID",
       "value": "input-lastname"
     },
